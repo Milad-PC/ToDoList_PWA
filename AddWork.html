@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.rtl.min.css"/>
+    <link rel="stylesheet" href="CSS/StyleHeader.css"/>
+    <link rel="stylesheet" href="CSS/StyleAddWork.css"/>
     <title>AddWorl</title>
 </head>
 <body>
-    
+    <header>
+        <div class="row">
+            <div class="col-8">
+                <p>
+                    وب اپلیکیشن چک لیست رایگان
+                    <a href="https://lightcompany.ir/">لایت کمپانی</a>
+                </p>
+            </div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label>شما 5 فعالیت باز دارید</label>
+            </div>
+            <div class="col-4">
+                <label>امروز 2 فعالیت مانده</label>
+            </div>
+            <div class="col-4">
+                <label>ساعت 19:05</label>
+            </div>
+        </div>
+    </header>
+    <form action="#" method="post">
+        <div class="input-group">
+            <label for="Caption">عنوان</label>
+            <input type="text" name="Caption" >
+        </div>
+        <div class="input-group">
+            <label for="info">توضیح</label>
+            <input type="text" name="info" >
+        </div>
+        <div class="input-group">
+            <label for="Days">فرصت باقی مانده</label>
+            <input type="text" name="Days" >
+            <label for="Days">روز</label>
+        </div>
+        <div class="input-group">
+            <input type="submit" value="ثبت" class="btn btn-outline-primary" >
+        </div>
+    </form>
 </body>
 </html>
