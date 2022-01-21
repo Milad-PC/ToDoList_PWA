@@ -1,0 +1,20 @@
+{
+    "name":"چک لیست لایت",
+    "short_name":"چک لیست",
+    "description":"نرم افزار چک لیست لایت",
+    "background_color":"white",
+    "theme_color":"lightblue",
+    "start_url":"/",
+    "scope":".",
+    "orientation":"portrait-primary",
+    "display":"standalone",
+    "dir":"rtl",
+    "lang":"fa",
+    "icons":[
+        {
+            "src":"Images/favicon.ico",
+            "type":"ico",
+            "sizes":"256x256"
+        }
+    ]
+}
